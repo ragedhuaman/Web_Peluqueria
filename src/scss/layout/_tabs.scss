@@ -1,0 +1,29 @@
+.tabs{
+    background-color: $negro;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    @include tablet{
+            padding:1.5rem;
+            width:100%;
+            flex-direction:row;
+            justify-content: space-around;
+    }
+    button{
+        margin:0.1rem;
+        border-radius: 0.8rem;
+        padding:1rem;
+        width: 85%;
+        border:none;
+        background-color:rgba(127, 161, 255, 0.945);
+        font-size: $bold;
+        @include tablet{
+            width: 28%;
+        }
+        &:hover{
+            cursor:pointer;
+        }
+    }
+}

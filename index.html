@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-
     <div class="contenedor-estetica">
         <div class="imagen"></div>
         <div class="app">
@@ -16,11 +15,24 @@
                 <h1>App Peluqueria</h1>
             </header>
             <nav class="tabs">
-                <button type="button">Servicios</button>
-                <button type="button">Información Cliente</button>
-                <button type="button">Resumen</button>
+                <button type="button" href="#servicios">Servicios</button>
+                <button type="button" href="#info">Información Cliente</button>
+                <button type="button" href="#resumen">Resumen</button>
             </nav>
+        <!--Inicia contenido de la app-->
+            <div class="seccion" id="servicios">
+                <h1>Servicios</h1>
+                <p class="text-center">Elige tus servicios a Continuacion</p>
+                <div class="listado-servicios"></div>
+            </div>
+            <div class="seccion" id="info">
+                <h1>Tus datos y citas</h1>
+            </div>
+            <div class="seccion" id="resumen">
+                <h1>Resumen</h1>
+            </div>
         </div>
+
     </div>
 
     <script src="build/js/bundle.min.js"></script>
