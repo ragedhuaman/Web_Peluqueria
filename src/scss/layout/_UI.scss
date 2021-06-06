@@ -25,11 +25,8 @@ body{
     .seccion{
         display:none;
         margin-top:2.5rem;
-        &:first-of-type{
-            display:block;
-        }
-        &.visible{
-            display:block;
-        }
+    }
+    .visible{
+        display:block!important;
     }
 }
